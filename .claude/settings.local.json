@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "Bash(which node && node --version && which npx && npx --version 2>/dev/null)",
+      "Bash(npm view:*)",
+      "Bash(npx create-expo-app@latest:*)",
+      "Bash(git:*)",
+      "Bash(head:*)"
+    ]
+  }
+}
