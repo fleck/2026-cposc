@@ -216,3 +216,5 @@ Access device APIs (GPS, sensors, camera) with minimal code
 Hot reload makes the dev experience feel instant
 
 One codebase, multiple platforms
+
+Also great for web!
