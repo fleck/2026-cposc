@@ -103,9 +103,7 @@ sed -i '' 's/"output": "static"/"output": "server"/' app.json
 pnpm start
 ```
 
-Show expo-dev-qr for remote connections.
-
-exp://127.0.0.1:8081 for simulator
+Show expo-dev-qr for remote connections. exp://127.0.0.1:8081 for simulator
 
 ---
 
