@@ -93,7 +93,7 @@ pnpm create expo-app@latest CPOSC --template default@sdk-54 --yes
 
 # Install the maps library before starting the server
 cd CPOSC
-pnpm dlx expo install react-native-maps
+pnpm dlx expo install react-native-maps expo-sensors
 pnpm install leaflet
 
 # Enable API routes (default template uses "static")
