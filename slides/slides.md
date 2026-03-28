@@ -35,7 +35,7 @@ theme: default
                         ~
 ```
 
-## By Jonathan Fleckenstein
+## Jonathan Fleckenstein https://github.com/fleck/2026-cposc
 
 ---
 
