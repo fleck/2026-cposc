@@ -169,23 +169,21 @@ Add a **Refresh** button to fetch the latest pins and comments from everyone
 
 # Device Sensors
 
-```bash
-npx expo install expo-sensors
-```
+Add the tab
 
 ```jsx
-import { Accelerometer } from "expo-sensors";
-
-const [data, setData] = useState({ x: 0, y: 0, z: 0 });
-
-useEffect(() => {
-  const sub = Accelerometer.addListener(setData);
-  Accelerometer.setUpdateInterval(100);
-  return () => sub.remove();
-}, []);
+<Tabs.Screen
+  name="sensors"
+  options={{
+    title: "Sensors",
+    tabBarIcon: ({ color }) => (
+      <IconSymbol size={28} name="gyroscope" color={color} />
+    ),
+  }}
+/>
 ```
 
-Accelerometer, gyroscope, barometer, pedometer — all accessible with a few lines of code
+Accelerometer, gyroscope, and more — all accessible with a few lines of code
 
 ---
 
