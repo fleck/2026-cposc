@@ -99,12 +99,10 @@ pnpm dlx expo install react-native-maps
 sed -i '' 's/"output": "static"/"output": "server"/' app.json
 
 # Start the dev server
-pnpm start
+pnpm run ios
 ```
 
 Show expo-dev-qr for remote connections.
-
-If nobody can connect run `pnpm run ios` and show simulator.
 
 ---
 
