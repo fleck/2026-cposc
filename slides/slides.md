@@ -179,9 +179,13 @@ Add the tab
     ),
   }}
 />
+
+// CPOSC/components/ui/icon-symbol.tsx
+  gyroscope: "sensors",
+  "map.fill": "map",
 ```
 
-Accelerometer, gyroscope, and more — all accessible with a few lines of code
+Accelerometer, gyroscope, all available!
 
 ---
 
