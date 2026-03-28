@@ -18,3 +18,5 @@ pnpm start
 ```
 
 Show expo-dev-qr for remote connections.
+
+If nobody can connect run `pnpm run ios` and show simulator.
