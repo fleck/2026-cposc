@@ -120,7 +120,7 @@ If you device doesn't update automatically press and hold with 3 fingers and tap
 
 Save a file and changes appear instantly on your device
 
-No recompilation, no restart
+No restarting the application
 
 Preserves component state while updating code
 
