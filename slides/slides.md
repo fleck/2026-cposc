@@ -100,10 +100,12 @@ pnpm install leaflet
 sed -i '' 's/"output": "static"/"output": "server"/' app.json
 
 # Start the dev server
-pnpm run ios
+pnpm start
 ```
 
 Show expo-dev-qr for remote connections.
+
+exp://127.0.0.1:8081 for simulator
 
 ---
 
