@@ -163,6 +163,8 @@ Add a **Save** button to persist your pin to the server
 
 Add a **Refresh** button to fetch the latest pins and comments from everyone
 
+(Apply stash saving and loading pins)
+
 ---
 
 # Device Sensors
